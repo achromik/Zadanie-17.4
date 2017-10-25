@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Node Form example</title>
+</head>
+<body>
+    <fieldset>
+        <p>FORM sending GET method</p>
+        <form action="http://localhost:3000/userformGet" method="get">
+            <p>
+                First name: <input type="text" name="first_name" id="">
+            </p>
+            <p>
+                Last name: <input type="text" name="last_name" id="">
+            </p>
+            <input type="submit" value="Submit">
+        </form>
+    </fieldset>
+
+
+    <fieldset>
+        <p>FORM sending POST method</p>
+        <form action="http://localhost:3000/userformPost" method="POST">
+            <p>
+                First name: <input type="text" name="first_name" id="">
+            </p>
+            <p>
+                Last name: <input type="text" name="last_name" id="">
+            </p>
+            <input type="submit" value="Submit">
+        </form>
+    </fieldset>
+</body>
+</html>
